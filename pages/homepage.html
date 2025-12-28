@@ -52,11 +52,13 @@
             <!-- Desktop Navigation -->
             <div class="hidden lg:flex items-center gap-6 xl:gap-8">
                 <a href="#studio-story" class="font-cta text-sm text-text-primary hover:text-secondary transition-colors duration-300">Story</a>
-                <a href="#space-showcase" class="font-cta text-sm text-text-primary hover:text-secondary transition-colors duration-300">Spaces</a>
-                <a href="#amenities" class="font-cta text-sm text-text-primary hover:text-secondary transition-colors duration-300">Amenities</a>
-                <a href="#equipment" class="font-cta text-sm text-text-primary hover:text-secondary transition-colors duration-300">Equipment</a>
-                <a href="#testimonials" class="font-cta text-sm text-text-primary hover:text-secondary transition-colors duration-300">Testimonials</a>
-                <a href="#contact" class="font-cta text-sm text-text-primary hover:text-secondary transition-colors duration-300">Contact</a>
+                    <a href="#studio-story" class="nav-link font-body text-base text-text-primary hover:text-accent transition-colors duration-200">Studio</a>
+                    <a href="#space-showcase" class="nav-link font-body text-base text-text-primary hover:text-accent transition-colors duration-200">Spaces</a>
+                    <a href="#amenities" class="nav-link font-body text-base text-text-primary hover:text-accent transition-colors duration-200">Amenities</a>
+                    <a href="#backdrops" class="nav-link font-body text-base text-text-primary hover:text-accent transition-colors duration-200">Backdrops</a>
+                    <a href="#equipment" class="nav-link font-body text-base text-text-primary hover:text-accent transition-colors duration-200">Equipment</a>
+                    <a href="#booking" class="nav-link font-body text-base text-text-primary hover:text-accent transition-colors duration-200">Booking</a>
+                    <a href="#gallery" class="nav-link font-body text-base text-text-primary hover:text-accent transition-colors duration-200">Gallery</a>
             </div>
 
             <!-- CTA Button -->
@@ -156,105 +158,6 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
                     </svg>
                 </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Luxury Creative Gallery Section -->
-    <section id="gallery" class="section-padding bg-background">
-        <div class="container-luxury">
-            <div class="text-center space-y-4 mb-12">
-                <span class="font-cta text-sm text-secondary uppercase tracking-widest">Gallery</span>
-                <h2 class="font-headline text-display text-accent">Creative Showcase</h2>
-                <p class="font-body text-body-lg text-text-secondary max-w-2xl mx-auto">A glimpse into the luxury, creativity, and versatility of R3 Studio. Explore our favorite moments, sets, and behind-the-scenes magic.</p>
-                <div class="divider-luxury max-w-xs mx-auto"></div>
-            </div>
-            <div class="luxury-masonry-gallery columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 [column-gap:1.5rem]">
-                                <style>
-                                    html {
-                                        scroll-behavior: smooth;
-                                    }
-                                .premium-gallery {
-                                    display: grid;
-                                    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-                                    gap: 2rem;
-                                    margin: 0 auto;
-                                    max-width: 1400px;
-                                    padding: 2rem 0;
-                                }
-                                .premium-gallery-item {
-                                    background: linear-gradient(135deg, #fff 80%, #e5c07b 100%);
-                                    border: 3px solid #e5c07b;
-                                    border-radius: 2rem;
-                                    box-shadow: 0 8px 32px 0 rgba(34, 34, 34, 0.18), 0 1.5px 8px 0 #e5c07b33;
-                                    overflow: hidden;
-                                    transition: transform 0.3s cubic-bezier(.4,2,.6,1), box-shadow 0.3s;
-                                    position: relative;
-                                }
-                                .premium-gallery-item:hover {
-                                    transform: translateY(-8px) scale(1.03);
-                                    box-shadow: 0 16px 48px 0 rgba(34, 34, 34, 0.22), 0 2px 12px 0 #e5c07b55;
-                                    z-index: 2;
-                                }
-                                .premium-gallery-img {
-                                    width: 100%;
-                                    aspect-ratio: 4/3;
-                                    min-height: 160px;
-                                    max-height: 340px;
-                                    object-fit: cover;
-                                    border-radius: 1.7rem;
-                                    border: 2px solid #fff;
-                                    box-shadow: 0 2px 12px 0 #e5c07b22;
-                                    transition: filter 0.3s;
-                                    background: #f8f8f8;
-                                    display: block;
-                                }
-                                @media (max-width: 900px) {
-                                    .premium-gallery-img {
-                                        max-height: 220px;
-                                        min-height: 120px;
-                                    }
-                                }
-                                @media (max-width: 600px) {
-                                    .premium-gallery-img {
-                                        aspect-ratio: 1/1;
-                                        max-height: 120px;
-                                        min-height: 80px;
-                                    }
-                                    .premium-gallery {
-                                        gap: 0.5rem;
-                                        padding: 0.5rem 0;
-                                    }
-                                }
-                                </style>
-                                <div class="creative-gallery-grid">
-                                <div class="premium-gallery">
-                                    <div class="premium-gallery-item">
-                                        <img src="../public/gallery1.jpeg" alt="Gallery Image 1" class="premium-gallery-img" loading="lazy" />
-                                    </div>
-                                    <div class="premium-gallery-item">
-                                        <img src="../public/gallery2.jpeg" alt="Gallery Image 2" class="premium-gallery-img" loading="lazy" />
-                                    </div>
-                                    <div class="premium-gallery-item">
-                                        <img src="../public/gallery5.jpeg" alt="Gallery Image 5" class="premium-gallery-img" loading="lazy" />
-                                    </div>
-                                    <div class="premium-gallery-item">
-                                        <img src="../public/greenroom2.jpeg" alt="Green Room 2" class="premium-gallery-img" loading="lazy" />
-                                    </div>
-                                    <div class="premium-gallery-item">
-                                        <img src="../public/greenroom3.jpeg" alt="Green Room 3" class="premium-gallery-img" loading="lazy" />
-                                    </div>
-                                    <div class="premium-gallery-item">
-                                        <img src="../public/gallery3.jpeg" alt="Gallery Image 3" class="premium-gallery-img" loading="lazy" />
-                                    </div>
-                                    <div class="premium-gallery-item">
-                                        <img src="../public/gallery4.jpeg" alt="Gallery Image 4" class="premium-gallery-img" loading="lazy" />
-                                    </div>
-                                    <div class="premium-gallery-item">
-                                        <img src="../public/greenroom1.jpeg" alt="Green Room 1" class="premium-gallery-img" loading="lazy" />
-                                    </div>
-                                </div>
-                                </div>
             </div>
         </div>
     </section>
@@ -1159,6 +1062,230 @@
             </div>
         </div>
     </section>
+
+    <!-- Luxury Creative Gallery Section -->
+    <section id="gallery" class="section-padding bg-background">
+        <div class="container-luxury">
+            <div class="text-center space-y-4 mb-12">
+                <span class="font-cta text-sm text-secondary uppercase tracking-widest">Gallery</span>
+                <h2 class="font-headline text-display text-accent">Creative Showcase</h2>
+                <p class="font-body text-body-lg text-text-secondary max-w-2xl mx-auto">A glimpse into the luxury, creativity, and versatility of R3 Studio. Explore our favorite moments, sets, and behind-the-scenes magic.</p>
+                <div class="divider-luxury max-w-xs mx-auto"></div>
+            </div>
+            <style>
+            .carousel-container {
+                position: relative;
+                width: 100%;
+                max-width: 1200px;
+                margin: 0 auto;
+                overflow: hidden;
+                padding: 0.5rem 0;
+                display: flex;
+                justify-content: center;
+            }
+            .carousel-track {
+                display: inline-flex;
+                transition: transform 0.6s cubic-bezier(.4,2,.6,1);
+                will-change: transform;
+                align-items: center;
+            }
+            .carousel-slide {
+                flex: 0 0 auto;
+                box-sizing: border-box;
+                padding: 0.5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .carousel-card {
+                background: linear-gradient(135deg, #fff 80%, #e5c07b 100%);
+                border: 3px solid #e5c07b;
+                border-radius: 2rem;
+                box-shadow: 0 8px 32px 0 rgba(34, 34, 34, 0.18), 0 1.5px 8px 0 #e5c07b33;
+                box-sizing: border-box;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                padding: 0;
+                width: auto;
+                min-width: 0;
+                max-width: 100%;
+            }
+            .carousel-img {
+                display: block;
+                border-radius: 1.5rem;
+                background: #fff;
+                object-fit: contain;
+                max-width: 100%;
+                max-height: 420px;
+                width: auto;
+                height: auto;
+            }
+            .carousel-btn {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                background: #e5c07b;
+                color: #222;
+                border: none;
+                border-radius: 50%;
+                width: 2.5rem;
+                height: 2.5rem;
+                font-size: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                z-index: 2;
+                opacity: 0.85;
+                transition: background 0.2s;
+            }
+            .carousel-btn:hover { background: #d4af37; }
+            .carousel-btn.left { left: 1rem; }
+            .carousel-btn.right { right: 1rem; }
+            @media (min-width: 1024px) {
+                .carousel-slide {
+                    width: auto;
+                }
+                .carousel-card {
+                    max-width: 370px;
+                }
+            }
+            @media (max-width: 1023px) {
+                .carousel-slide {
+                    width: auto;
+                }
+                .carousel-card {
+                    max-width: 340px;
+                }
+            }
+            @media (max-width: 767px) {
+                html, body {
+                    overflow-x: hidden !important;
+                }
+                .carousel-container {
+                    overflow: hidden;
+                    max-width: 100vw;
+                }
+                .carousel-track {
+                    display: flex;
+                    width: 100vw;
+                    min-width: 0;
+                    align-items: stretch;
+                    box-sizing: border-box;
+                }
+                .carousel-slide {
+                    width: 100vw;
+                    min-width: 100vw;
+                    max-width: 100vw;
+                    padding: 0.5rem 0 1rem 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    box-sizing: border-box;
+                }
+                .carousel-card {
+                    width: 100vw;
+                    max-width: 100vw;
+                    min-width: 0;
+                    margin: 0 auto;
+                    border-radius: 1.2rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: auto;
+                    background: linear-gradient(135deg, #fff 80%, #e5c07b 100%);
+                    box-sizing: border-box;
+                }
+                .carousel-img {
+                    display: block;
+                    max-width: 96vw;
+                    width: 100%;
+                    height: auto;
+                    max-height: 70vh;
+                    margin: 0 auto;
+                    object-fit: contain;
+                    /* aspect-ratio removed to prevent overflow */
+                    box-sizing: border-box;
+                }
+                .carousel-btn.left { left: 0.5rem; }
+                .carousel-btn.right { right: 0.5rem; }
+            }
+            </style>
+            <div class="carousel-container">
+                <button class="carousel-btn left" onclick="moveCarousel(-1)" aria-label="Previous">&#8592;</button>
+                <div class="carousel-track" id="carouselTrack">
+                    <div class="carousel-slide"><div class="carousel-card"><img src="../public/gallery1.jpeg" alt="Gallery 1" class="carousel-img" /></div></div>
+                    <div class="carousel-slide"><div class="carousel-card"><img src="../public/gallery2.jpeg" alt="Gallery 2" class="carousel-img" /></div></div>
+                    <div class="carousel-slide"><div class="carousel-card"><img src="../public/gallery5.jpeg" alt="Gallery 5" class="carousel-img" /></div></div>
+                    <div class="carousel-slide"><div class="carousel-card"><img src="../public/greenroom2.jpeg" alt="Green Room 2" class="carousel-img" /></div></div>
+                    <div class="carousel-slide"><div class="carousel-card"><img src="../public/greenroom3.jpeg" alt="Green Room 3" class="carousel-img" /></div></div>
+                    <div class="carousel-slide"><div class="carousel-card"><img src="../public/gallery3.jpeg" alt="Gallery 3" class="carousel-img" /></div></div>
+                    <div class="carousel-slide"><div class="carousel-card"><img src="../public/gallery4.jpeg" alt="Gallery 4" class="carousel-img" /></div></div>
+                    <div class="carousel-slide"><div class="carousel-card"><img src="../public/greenroom1.jpeg" alt="Green Room 1" class="carousel-img" /></div></div>
+                </div>
+                <button class="carousel-btn right" onclick="moveCarousel(1)" aria-label="Next">&#8594;</button>
+            </div>
+            <script>
+            const carouselTrack = document.getElementById('carouselTrack');
+            const slides = Array.from(carouselTrack.children);
+            let currentIndex = 0;
+            function getVisibleSlides() {
+                if (window.innerWidth <= 767) return 1;
+                if (window.innerWidth <= 1023) return 2;
+                return 3;
+            }
+            function getSlideWidth() {
+                // Get the width of the first visible slide
+                const visibleSlides = getVisibleSlides();
+                let width = 0;
+                for (let i = 0; i < visibleSlides; i++) {
+                    if (slides[i]) width += slides[i].offsetWidth;
+                }
+                return width || 1;
+            }
+            function updateCarousel() {
+                const visibleSlides = getVisibleSlides();
+                let offset = 0;
+                if (window.innerWidth <= 767) {
+                    // On mobile, each slide is 100vw, so offset is currentIndex * 100vw
+                    offset = currentIndex * window.innerWidth;
+                    carouselTrack.style.transform = `translateX(-${offset}px)`;
+                } else {
+                    for (let i = 0; i < currentIndex; i++) {
+                        offset += slides[i].offsetWidth;
+                    }
+                    carouselTrack.style.transform = `translateX(-${offset}px)`;
+                }
+            }
+            function moveCarousel(direction) {
+                const visibleSlides = getVisibleSlides();
+                const totalSlides = slides.length;
+                currentIndex += direction;
+                if (currentIndex < 0) currentIndex = totalSlides - visibleSlides;
+                if (currentIndex > totalSlides - visibleSlides) currentIndex = 0;
+                updateCarousel();
+            }
+            function autoSlide() {
+                moveCarousel(1);
+            }
+            let autoSlideInterval = setInterval(autoSlide, 3500);
+            window.addEventListener('resize', updateCarousel);
+            carouselTrack.addEventListener('mouseenter', () => clearInterval(autoSlideInterval));
+            carouselTrack.addEventListener('mouseleave', () => autoSlideInterval = setInterval(autoSlide, 3500));
+            // Wait for images to load to get correct widths
+            window.addEventListener('load', updateCarousel);
+            slides.forEach(slide => {
+                const img = slide.querySelector('img');
+                if (img) img.onload = updateCarousel;
+            });
+            updateCarousel();
+            </script>
+        </div>
+        </div>
+    </section>
+
 
     <!-- Policies & Terms Section -->
     <section id="policies" class="section-padding-sm bg-surface">
