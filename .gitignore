@@ -1,0 +1,23 @@
+# Node/OS/Editor/Build ignores
+.DS_Store
+node_modules/
+.idea/
+package-lock.json
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+logs
+*.log
+.vscode/
+dist/
+build/
+.env
+.env.*
+*.local
+*.sublime-workspace
+*.sublime-project
+*.swp
+coverage/
+*.out
+Thumbs.db
+public/*.DS_Store
